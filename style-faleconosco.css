@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F2E0C9;
+    color: #0D0D0D;
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    background: linear-gradient(to right, #A67683, #40592E);
+      
+}
+
+header img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #F2E0C9;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #FFD700;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #8C3746;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav ul li ul li {
+    margin: 0;
+}
+
+nav ul li ul li a {
+    font-size: 14px;
+}
+
+h1 {
+    text-align: center;
+    color: #8C3746;
+    font-size: 30px;
+}
+
+h2 {
+    text-align: center;
+    background: linear-gradient(to right, #A67683, #40592E);
+    color: #F2E0C9;
+    padding: 10px;
+    border-top:#f2e0c96e solid 1px;
+}
+
+#subtexto {
+    text-align: center;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #2F4023;
+    color: #F2E0C9;
+}
+
+footer p {
+    margin: 0;
+}
