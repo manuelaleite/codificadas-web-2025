@@ -8,7 +8,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Wicked The Musical</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style-quiz.css">
     </head>
     <body>
         <header>
@@ -30,9 +30,9 @@
         </header>
         <main>
             <section>
-                <h2>
-                    Alguma frase de efeito
-                </h2>
+                <!-- Todas as frases de efeito nas páginas, deixe na opção itálico com <em> -->
+                <!-- Além disso, use sempre a ID frase-de-efeito para editar no CSS -->
+                <p id="frase-de-efeito"> <em>"Alguma frase de efeito"</em></p>
                 <h1>
                     Elphaba ou Glinda? (Quiz)
                 </h1>
@@ -40,9 +40,9 @@
             </section>
             <!-- Pergunta 1 -->
             <section>
-                <h3>
+                <h2>
                     Como você costuma enfrentar desafios?
-                </h3>
+                </h2>
                 <form>
                     <input type="radio" value="opcao1" id="p1a" name="pergunta1">
                     <label for="p1a">Enfrento de frente, mesmo que pareça difícil ou impopular.</label><br>
@@ -54,9 +54,9 @@
             </section>
             <!-- Pergunta 2 -->
             <section>
-                <h3>
+                <h2>
                     Pergunta 2
-                </h3>
+                </h2>
                 <form>
                     <input type="radio" value="opcao1" id="p2a" name="pergunta2">
                     <label for="p2a">Opção 1</label><br>
@@ -68,27 +68,27 @@
             </section>
             <!-- Pergunta 3 -->
             <section>
-                <h3>
+                <h2>
                     Pergunta 3
-                </h3>
+                </h2>
                 <form>
                     <input type="text" id="p3" name="pergunta3" placeholder="Digite sua resposta aqui.">
                 </form>
             </section>
             <!-- Pergunta 4 -->
             <section>
-                <h3>
+                <h2>
                     Pergunta 4
-                </h3>
+                </h2>
                 <form>
                     <input type="date" id="p4" name="pergunta4">
                 </form>
             </section>
             <!-- Pergunta 5 -->
             <section>
-                <h3>
+                <h2>
                     Pergunta 5
-                </h3>
+                </h2>
                 <form>
                     <input type="checkbox" id="p5a" name="pergunta5" value="opcao1">
                     <label for="p5a">Opção 1</label><br>
@@ -100,7 +100,7 @@
             </section>
             <!-- Pergunta 6 -->
              <section>
-                <h3> Pergunta 6 </h3>
+                <h2> Pergunta 6 </h2>
                 <form>
                     <select name="pergunta6" id="p6">
                         <option value="opcao1">Opção 1</option>
