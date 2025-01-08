@@ -7,6 +7,12 @@
 }
 
 body {
+    /*
+    background-image: url(assets/teste2.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    */
     background-color: #F2E0C9;
     color: #0D0D0D;
     font-family: "Cabin", sans-serif;
@@ -86,13 +92,61 @@ nav ul li ul li a {
     font-size: 1.1rem;
 }
 
-footer {
+#topo {
     text-align: center;
-    padding: 10px;
+}
+
+#topo a {
+    color:#0D0D0D;
+    text-decoration: none;
+}
+
+footer {
     background-color: #2F4023;
+    color: #F2E0C9;
+    width: 100%;
+    padding: 40px 0px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-block h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.footer-block ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-block ul li {
+    margin-bottom: 10px;
+}
+
+.footer-block ul li a {
+    text-decoration: none;
     color: #F2E0C9;
 }
 
-footer p {
-    margin: 0;
+.footer-block ul li a:hover {
+    color: #FFD700;
+}
+
+.social-icons ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.social-icons img {
+    width: 50%;
+}
+
+.footer-rights {
+    text-align: center;
+    padding-top: 20px;
 }
