@@ -6,7 +6,7 @@
             Wicked
         </title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Wicked The Musical</title>
         <link rel="stylesheet" href="style-index.css">
     </head>
@@ -33,51 +33,62 @@
             <!-- Além disso, use sempre a ID frase-de-efeito para editar no CSS -->
             <p id="frase-de-efeito"> <em>"Alguma frase de efeito"</em></p>
             <h1> Wicked </h1>
-            <!-- SOBRE -->
-            <section>
-                <h2> Conheça mais sobre o musical </h2>
-                <p> Descubra mais sobre a emocionante história não contada das bruxas de Oz </p>
-                <a href="historia.html" target="_blank"> <button>
-                    Clique aqui e conheça a história
-                </button></a>
-                <p> Conheça o fantástico elenco do filme <p>
-                <a href="elenco.html"> <button>
-                    Clique aqui e conheça o elenco
-                </button></a>
+            <section class="main-container">
+                <!-- SOBRE -->
+                <article class="main-block">
+                    <h2> Conheça a obra </h2>
+                    <p> Descubra mais sobre a história não contada das bruxas de Oz: </p>
+                    <a href="historia.html" target="_blank"> <button>
+                        SAIBA MAIS
+                    </button></a>
+                    <p> Conheça o fantástico elenco que participou do primeiro filme: <p>
+                    <a href="elenco.html"> <button>
+                        CONFIRA AQUI
+                    </button></a>
+                </article>
+                <!-- PLAYLIST -->
+                <article class="main-block">
+                    <h2> Escute a Playlist </h2>
+                    <p> Ouça as famosas músicas que tocaram no primeiro filme: </p>
+                    <a href="playlist.html"> <button>
+                        ESCUTE AQUI
+                    </button></a>
+                </article>
+                <!-- QUIZ -->
+                <article class="main-block">
+                    <h2> Elphaba ou Glinda? </h2>
+                    <p> Será que você seria a bruxa má do oeste ou a bruxa boa do norte? Descubra: </p>
+                    <a href="quiz.html"> <button>
+                        DESCUBRA AQUI
+                    </button></a>
+                </article>
+                <!-- FALE CONOSCO -->
+                <article class="main-block">
+                    <h2> Fale Conosco </h2>
+                    <p> Envie uma mensagem diretamente para Oz com a sua dúvida, reclamação e/ou elogio: </p>
+                    <a href="faleconosco.html"> <button>
+                        CLIQUE AQUI
+                    </button></a>
+                </article>
+                <article class="main-block">
+                    <h2>Assista ao filme</h2>
+                    <p>Confira agora mesmo o filme que já está disponível nas principais plataformas de streaming!</p>
+                    <a href="https://www.primevideo.com/-/pt/detail/Wicked/0OWZLPZCZKLFFM69I3A60V1KQ6"><button>PRIME VIDEO</button></a>
+                    <a href="https://tv.apple.com/br/movie/wicked/umc.cmc.2y47u72bw6uhh0g4zpgxkvatk"><button>APPLE TV+</button></a>
+                </article>
+                <article class="main-block">
+                    <h2>Confira o musical</h2>
+                    <p>A versão brasileira do musical da Broadway estará de volta ao palco do Teatro Renault, em São Paulo, a partir do dia <strong>20 de março de 2025</strong> para curtíssima temporada! Os ingressos já estão à venda no site:</p>
+                    <a href="https://www.wickedbrasil.com/"><button>COMPRE AQUI O SEU INGRESSO</button></a>
+                </article>
             </section>
-            <!-- PLAYLIST -->
-            <section>
-                <h2> Escute a playlist </h2>
-                <p> Escute as músicas e embarque novamente no mundo de Oz </p>
-                <a href="playlist.html"> <button>
-                    Clique aqui e escute a playlist
-                </button></a>
-            </section>
-            <!-- QUIZ -->
-            <section>
-                <h2> Elphaba ou Glinda? </h2>
-                <p> Será que você seria a bruxa má do oeste ou a bruxa boa do norte? Descubra: </p>
-                <a href="quiz.html"> <button>
-                    Clique aqui e faça o quiz
-                </button></a>
-            </section>
-            <!-- FALE CONOSCO -->
-            <section>
-                <h2> Fale Conosco </h2>
-                <p> Se restou alguma duvida sobre o musical, entre em contato conosco </p>
-                <a href="faleconosco.html"> <button>
-                    Clique aqui e fale conosco
-                </button></a>
-            </section>
-            <!-- AMAZON -->
-            
             <!-- VOLTAR AO TOPO -->
             <section>
                 <p id="topo"> <a href="#">&#129529; Voe de volta ao topo! &#127811;</a></p>
             </section>
         </main>
         <footer>
-            <div class="footer-links">
+            <section class="footer-links">
                 <div class="footer-block">
                     <h3>SOBRE</h3>
                     <ul>
@@ -114,7 +125,7 @@
                         </ul>
                     </div>
                 </div>
-            </div>
+            </section>
             <div class="footer-rights">
                 <small>&copy; 2025 Universal Studios. Todos os direitos reservados.</small>
             </div>
