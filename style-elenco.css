@@ -141,6 +141,10 @@ main p {
     transform: scale(1.1);
 }
 
+.cast-member details {
+    color: #2F4023;
+}
+
 #topo {
     text-align: center;
     padding-top: 20px;
