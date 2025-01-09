@@ -94,15 +94,51 @@ main {
 }
 
 h1 {
-    text-align: center;
-    color: #40592E;
-    font-size: 30px;
+    color:#40592E;
+    font-size: 2rem;
+    padding: 20px;
 }
 
-#subtexto {
-    text-align: center;
+#recado {
+    padding-bottom: 20px;
 }
 
+.form-fale-conosco h2 {
+    color: #8C3746;
+}
+
+.form-fale-conosco {
+    background-color: #ebd2aa;
+    padding: 7px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    max-width: 550px;
+    margin: 0 auto;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(17, 43, 15, 0.267);
+}
+
+.form-fale-conosco p {
+    padding: 5px;
+}
+
+.form-fale-conosco button {
+    color: #F2E0C9;
+    background-color:#40592E;
+    border: 0px none;
+    padding: 5px 12px;
+    border-radius: 15px;
+    font-weight: 500px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.form-fale-conosco button:hover {
+    color: #0D0D0D;
+    background-color: #FFD700;
+}
 
 #topo {
     text-align: center;

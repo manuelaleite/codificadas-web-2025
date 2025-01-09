@@ -29,32 +29,34 @@
             </nav>
         </header>
         <main>
-            <section>
+            <section class="inicio">
                 <!-- Todas as frases de efeito nas páginas, deixe na opção itálico com <em> -->
                 <!-- Além disso, use sempre a ID frase-de-efeito para editar no CSS -->
-                <p id="frase-de-efeito"> <em>"Alguma frase de efeito"</em></p>
+                <p id="frase-de-efeito"> <em>Something bad? Happening in Oz?</em></p>
                 <h1>
                     Fale Conosco
                 </h1>
-                <p id="subtexto"> Mande um recado diretamente para Oz com a sua dúvida, sugestão e/ou crítica! </p>
+                <p id="recado"> Mande um recado diretamente para Oz com a sua dúvida, sugestão e/ou crítica! </p>
             </section>
-            <section>
+            <section class="form-fale-conosco">
                 <h2>
                     Formulário de envio
                 </h2>
                 <p>Preencha abaixo o seu nome, e-mail e o recado que deseja enviar.</p>
-                <form>
-                    <fieldset>
-                        <legend>Informações de contato</legend>
-                        <label for="nome">Nome: </label>
-                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome aqui"><br>
-                        <label for="email">E-mail: </label>
-                        <input type="email" id="email" name="email" placeholder="Digite seu e-mail aqui"><br>
-                        <label for="comentarios">Deixe seu recado: </label><br>
-                        <textarea id="comentarios" name="comentarios" rows="6" cols="50" placeholder="Digite sua mensagem aqui"></textarea><br>
-                        <button onclick="alert('MENSAGEM ENVIADA COM SUCESSO!')">ENVIE SUA MENSAGEM DIRETAMENTE PARA OZ!</button>
-                    </fieldset>
-                </form>
+                <div class="info-contato">
+                    <form>
+                        <fieldset>
+                            <legend>Informações de contato</legend>
+                            <label for="nome"><strong>Nome: </strong></label>
+                            <input type="text" id="nome" name="nome" placeholder="Digite seu nome aqui"><br>
+                            <label for="email"><strong>E-mail: </strong></label>
+                            <input type="email" id="email" name="email" placeholder="Digite seu e-mail aqui"><br>
+                            <label for="comentarios"><strong>Deixe seu recado: </strong></label><br>
+                            <textarea id="comentarios" name="comentarios" rows="6" cols="30" placeholder="Digite sua mensagem aqui"></textarea><br>
+                            <button onclick="alert('MENSAGEM ENVIADA COM SUCESSO!')">ENVIE SUA MENSAGEM DIRETAMENTE PARA OZ!</button>
+                        </fieldset>
+                    </form>
+                </div>
             </section>
             <!-- VOLTAR AO TOPO -->
             <section>
