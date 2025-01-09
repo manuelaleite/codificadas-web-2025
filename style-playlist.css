@@ -10,11 +10,12 @@ body {
     background-color: #F2E0C9;
     color: #0D0D0D;
     font-family: "Cabin", sans-serif;
-    line-height: 1.6;
+    font-weight: 400;
 }
 
 header {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -30,12 +31,15 @@ header img {
 
 nav {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
 nav ul {
     display: flex;
     list-style: none;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 nav ul li {
@@ -74,11 +78,6 @@ nav ul li ul li {
 
 nav ul li ul li a {
     font-size: 14px;
-    color: #F2E0C9;
-}
-
-nav ul li ul li a:hover {
-    color: #FFD700;
 }
 
 main {
@@ -86,23 +85,7 @@ main {
     text-align: center;
 }
 
-main section {
-    margin-bottom: 40px;
-}
-
-main h1 {
-    font-size: 2rem;
-    color: #40592E;
-    margin-bottom: 10px;
-}
-
-main p {
-    font-size: 1.2rem;
-    color: #6D6D6D;
-}
-
 #frase-de-efeito {
-    text-align: center;
     color: #8C3746;
     font-weight: 600;
     letter-spacing: 1px; 
@@ -156,14 +139,69 @@ main p {
     color: #1a73e8;
 }
 
-footer {
+#topo {
     text-align: center;
-    padding: 10px;
-    background-color: #2F4023;
-    color: #F2E0C9;
-    font-size: 0.9rem;
+    padding-top: 20px;
 }
 
-footer p {
-    margin: 0;
+#topo a {
+    color:#0D0D0D;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #2F4023;
+    color: #F2E0C9;
+    flex: 1 1 200px; 
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+}
+
+.footer-links {
+    flex: 1 1 100px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.footer-block h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.footer-block ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-block ul li {
+    margin-bottom: 10px;
+}
+
+.footer-block ul li a {
+    text-decoration: none;
+    color: #F2E0C9;
+}
+
+.footer-block ul li a:hover {
+    color: #FFD700;
+}
+
+.social-icons ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.social-icons img {
+    width: 50%;
+}
+
+.footer-rights {
+    text-align: center;
+    padding-top: 5px;
 }
