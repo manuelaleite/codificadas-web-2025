@@ -85,6 +85,19 @@ nav ul li ul li a {
     font-size: 1.1rem;
 }
 
+main h1 {
+    font-size: 2rem;
+    color: #40592E;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+main p {
+    font-size: 1.2rem;
+    color: #6D6D6D;
+    text-align: center;
+}
+
 .cast-section {
     text-align: center;
     margin: 40px 20px;
