@@ -7,12 +7,6 @@
 }
 
 body {
-    /*
-    background-image: url(assets/teste2.png);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    */
     background-color: #F2E0C9;
     color: #0D0D0D;
     font-family: "Cabin", sans-serif;
@@ -21,12 +15,12 @@ body {
 
 header {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 20px 0;
     background: linear-gradient(to right, #A67683, #40592E);
-      
 }
 
 header img {
@@ -37,12 +31,15 @@ header img {
 
 nav {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
 nav ul {
     display: flex;
     list-style: none;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 nav ul li {
@@ -83,8 +80,12 @@ nav ul li ul li a {
     font-size: 14px;
 }
 
-#frase-de-efeito {
+main {
+    padding: 20px;
     text-align: center;
+}
+
+#frase-de-efeito {
     color: #8C3746;
     font-weight: 600;
     letter-spacing: 1px; 
@@ -92,8 +93,59 @@ nav ul li ul li a {
     font-size: 1.1rem;
 }
 
+h1 {
+    color:#40592E;
+    padding: 20px;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.main-container h2 {
+    color:#8C3746;
+}
+
+.main-container p {
+    font-weight: 450;
+    color: #0D0D0D;
+    padding: 5px;
+}
+
+.main-block {
+    flex: 1 1 200px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #ebd2aa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(17, 43, 15, 0.267);
+}
+
+.main-block button {
+    color: #F2E0C9;
+    background-color:#40592E;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0px;
+    font-weight: 500px;
+    cursor: pointer;
+}
+
+.main-block button:hover {
+    color: #0D0D0D;
+    background-color: #FFD700;
+}
+
 #topo {
     text-align: center;
+    padding-top: 20px;
 }
 
 #topo a {
@@ -104,13 +156,19 @@ nav ul li ul li a {
 footer {
     background-color: #2F4023;
     color: #F2E0C9;
-    width: 100%;
-    padding: 40px 0px;
+    flex: 1 1 200px; 
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
 }
 
 .footer-links {
+    flex: 1 1 100px; 
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 20px;
 }
 
 .footer-block h3 {
@@ -140,6 +198,7 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .social-icons img {
@@ -148,5 +207,5 @@ footer {
 
 .footer-rights {
     text-align: center;
-    padding-top: 20px;
+    padding-top: 5px;
 }
