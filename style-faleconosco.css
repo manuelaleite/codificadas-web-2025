@@ -103,10 +103,6 @@ h1 {
     padding-bottom: 20px;
 }
 
-.form-fale-conosco h2 {
-    color: #8C3746;
-}
-
 .form-fale-conosco {
     background-color: #ebd2aa;
     padding: 7px;
@@ -119,17 +115,19 @@ h1 {
     box-shadow: 0 4px 6px rgba(17, 43, 15, 0.267);
 }
 
+.form-fale-conosco h2 {
+    color: #8C3746;
+}
+
 .form-fale-conosco p {
     padding: 5px;
 }
 
 fieldset {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     gap: 7px;
     justify-content: center;
-    align-items: center;
     border: 2px solid #F2E0C9;
     border-radius: 5px;
     padding: 0.8rem;
@@ -141,7 +139,7 @@ legend {
 }
 
 input[type="text"], input[type="email"], textarea {
-    width: 80%;
+    width: 90%;
     max-width: 100%; 
     padding: 0.5rem;
     border-radius: 5px;
