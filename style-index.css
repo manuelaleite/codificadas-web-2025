@@ -157,6 +157,10 @@ h1 {
     text-decoration: none;
 }
 
+#topo a:hover {
+    color:#40592E;
+}
+
 footer {
     background-color: #2F4023;
     color: #F2E0C9;

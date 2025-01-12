@@ -133,6 +133,10 @@ h2 {
     text-align: justify;
 }
 
+img {
+    width: 50%;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
