@@ -90,6 +90,47 @@ main {
     letter-spacing: 1px; 
     text-shadow: 0px 0px 8px rgba(140, 55, 71, 0.418);
     font-size: 1.1rem;
+    text-align: center;
+}
+
+h1 {
+    color:#40592E;
+    font-size: 2rem;
+    padding: 20px;
+    text-align: center;
+}
+
+.listagem-conteudo ul {
+    list-style: none;
+    text-align: center;
+}
+
+.listagem-conteudo ul li {
+    padding: 10px;
+}
+
+.listagem-conteudo a {
+    text-decoration: none;
+    color: #F2E0C9;
+    background-color:#8C3746;
+    padding: 5px 12px;
+    border-radius: 15px;
+    font-weight: 500px;
+    transition: all 0.5s ease;
+}
+
+.listagem-conteudo a:hover {
+    color: #0D0D0D;
+    background-color: #FFD700;
+}
+
+h2 {
+    color: #40592E;
+    padding: 15px 0px;
+}
+
+.topicos {
+    text-align: justify;
 }
 
 #topo {
