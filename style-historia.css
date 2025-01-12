@@ -133,6 +133,33 @@ h2 {
     text-align: justify;
 }
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th {
+    background-color: #8C3746;
+    color: #F2E0C9;
+    padding: 0.6rem;
+}
+
+td {
+    background-color: #ebd2aa;
+    padding: 0.6rem;
+}
+
+td a {
+    text-decoration: none;
+    color: #40592E;
+    font-weight: 700;
+}
+
+td a:hover {
+    color: #8C3746;
+}
+
 #topo {
     text-align: center;
     padding-top: 20px;
@@ -141,6 +168,10 @@ h2 {
 #topo a {
     color:#0D0D0D;
     text-decoration: none;
+}
+
+#topo a:hover {
+    color:#40592E;
 }
 
 footer {
