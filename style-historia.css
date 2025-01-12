@@ -133,6 +133,12 @@ h2 {
 
 img {
     width: 50%;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(17, 43, 15, 0.267);
+}
+
+figcaption {
+    font-size: 0.8rem;
 }
 
 table {
