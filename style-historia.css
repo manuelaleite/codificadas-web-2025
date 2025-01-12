@@ -100,13 +100,11 @@ h1 {
     text-align: center;
 }
 
-.listagem-conteudo ul {
-    list-style: none;
-    text-align: center;
-}
-
-.listagem-conteudo ul li {
-    padding: 10px;
+.listagem-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px 0px;
 }
 
 .listagem-conteudo a {
