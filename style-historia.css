@@ -147,12 +147,6 @@ main figcaption {
     text-align: center;
 }
 
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 .table-responsive {
     width: 100%;
     overflow-x: auto;
