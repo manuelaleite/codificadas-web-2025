@@ -106,33 +106,25 @@ main p {
     text-align: center;
 }
 
-.cast-section {
-    text-align: center;
-    margin: 40px 20px;
-}
-
-.cast-section h1, 
-.cast-section h2, 
-.cast-section p {
-    margin-bottom: 20px;
-}
-
 .cast-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    margin-top: 20px;
+    max-width: 2000px;
+    margin: 0 auto;
+
 }
 
 .cast-member {
-    width: 150px;
-    text-align: center;
-    position: relative;
+    flex: 1 1 300px;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 30px;
+    background-color: #ebd2aa;
 }
 
+
 .cast-member img {
-    width: 100%;
+    max-width: 100%;
     border-radius: 5px;
     transition: transform 0.3s;
 }
