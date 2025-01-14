@@ -107,8 +107,8 @@ main p {
 }
 
 .video-gallery {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-wrap: wrap;
     gap: 20px;
     width: 90%;
     max-width: 1200px;
@@ -116,6 +116,7 @@ main p {
 }
 
 .video-container {
+    flex: 1 1 400px;
     text-align: center;
     transition: transform 0.3s ease;
     overflow: hidden;
