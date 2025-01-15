@@ -180,56 +180,6 @@ input[type="text"], input[type="email"], textarea {
 footer {
     background-color: #2F4023;
     color: #F2E0C9;
-    flex: 1 1 200px; 
-    display: flex;
-    flex-direction: column;
     padding: 20px 0px;
-}
-
-.footer-links {
-    flex: 1 1 100px; 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    padding: 20px;
-}
-
-.footer-block h3 {
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-}
-
-.footer-block ul {
-    list-style: none;
-    padding: 0;
-}
-
-.footer-block ul li {
-    margin-bottom: 10px;
-}
-
-.footer-block ul li a {
-    text-decoration: none;
-    color: #F2E0C9;
-}
-
-.footer-block ul li a:hover {
-    color: #FFD700;
-}
-
-.social-icons ul {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.social-icons img {
-    width: 50%;
-}
-
-.footer-rights {
     text-align: center;
-    padding-top: 5px;
 }
