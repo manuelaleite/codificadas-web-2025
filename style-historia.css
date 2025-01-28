@@ -76,12 +76,12 @@ h1 {
 }
 
 .listagem-conteudo a {
+    text-align: center;
     text-decoration: none;
     color: #F2E0C9;
     background-color:#8C3746;
     padding: 5px 12px;
     border-radius: 15px;
-    font-weight: 500px;
     transition: all 0.5s ease;
 }
 
@@ -101,7 +101,8 @@ h2 {
 
 main figure {
     float: right;
-    margin: 0 0 10px 10px;
+    margin-left: 15px;
+    margin-bottom: 5px;
     max-width: 450px;
 }
 
@@ -121,23 +122,19 @@ main figcaption {
 }
 
 table {
-    width: 100%;
     border-collapse: collapse;
     text-align: center;
-    min-width: 600px;
 }
 
 th {
     background-color: #8C3746;
     color: #F2E0C9;
     padding: 0.6rem;
-    word-wrap: break-word;
 }
 
 td {
     background-color: #ebd2aa;
     padding: 0.6rem;
-    word-wrap: break-word;
 }
 
 td a {
