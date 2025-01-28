@@ -154,7 +154,7 @@ input[type="text"], input[type="email"], textarea {
     padding: 5px 12px;
     border-radius: 15px;
     font-weight: 500px;
-    transition: all 0.5s ease;
+    transition: all 0.5s;
     cursor: pointer;
 }
 
