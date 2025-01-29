@@ -100,7 +100,20 @@ h2 {
     text-align: justify;
 }
 
+figure {
+    margin-bottom: 15px;
+    text-align: center;
+}
 
+figure img {
+    width: 550px;
+    height: auto;
+    border-radius: 5px;
+}
+
+figcaption {
+    font-size: 0.9rem;
+}
 
 .table-responsive {
     width: 100%;
