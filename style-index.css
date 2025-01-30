@@ -103,7 +103,7 @@ h1 {
     max-width: 150px;
     padding: 5px 12px;
     border-radius: 15px;
-    font-weight: 500px;
+    font-weight: 500;
     text-decoration: none;
     transition: all 0.5s;
 }
