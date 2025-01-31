@@ -132,3 +132,9 @@ footer {
     padding: 20px 0px;
     text-align: center;
 }
+
+@media (max-width: 160px){
+    header img {
+        width: 100%;
+    }
+}
