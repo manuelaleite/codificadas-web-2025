@@ -72,7 +72,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 7px 0px;
+    gap: 7px 0px; /* tirar o px*/
 }
 
 .listagem-conteudo a {
@@ -172,5 +172,11 @@ footer {
         max-width: 100%;
         height: auto;
         border-radius: 5px;
+    }
+}
+
+@media (max-width: 150px) {
+    header img {
+        width: 100%;
     }
 }
