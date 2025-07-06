@@ -20,7 +20,7 @@ header {
     align-items: center;
     justify-content: center;
     padding: 20px 0;
-    background: linear-gradient(to right, #A67683, #40592E);
+    background: linear-gradient(to right, #92c44b, #dc6794);
 }
 
 header img {
@@ -42,10 +42,14 @@ nav a {
     color: #F2E0C9;
     font-weight: bold;
     font-size: 16px;
+    padding: 5px 12px;
 }
 
 nav a:hover {
-    color: #FFD700;
+    color: #0D0D0D;
+    background-color: #f1d326;
+    padding: 5px 12px;
+    border-radius: 15px;
 }
 
 main {
@@ -54,7 +58,7 @@ main {
 }
 
 #frase-de-efeito {
-    color: #8C3746;
+    color: #b93e6a;
     font-weight: 600;
     letter-spacing: 1px; 
     text-shadow: 0px 0px 8px rgba(140, 55, 71, 0.418);
@@ -62,7 +66,7 @@ main {
 }
 
 h1 {
-    color:#40592E;
+    color:#43861f;
     font-size: 2rem;
     padding: 20px;
 }
@@ -76,7 +80,7 @@ h1 {
 }
 
 .main-container h2 {
-    color:#8C3746;
+    color:#b93e6a;
 }
 
 .main-container p {
@@ -99,7 +103,7 @@ h1 {
 
 .main-block a {
     color: #F2E0C9;
-    background-color:#40592E;
+    background-color:#43861f;
     max-width: 150px;
     padding: 5px 12px;
     border-radius: 15px;
@@ -110,7 +114,7 @@ h1 {
 
 .main-block a:hover {
     color: #0D0D0D;
-    background-color: #FFD700;
+    background-color: #f1d326;
 }
 
 #topo {
@@ -123,11 +127,11 @@ h1 {
 }
 
 #topo a:hover {
-    color:#40592E;
+    color:#43861f;
 }
 
 footer {
-    background-color: #2F4023;
+    background-color: #43861f;
     color: #F2E0C9;
     padding: 20px 0px;
     text-align: center;
