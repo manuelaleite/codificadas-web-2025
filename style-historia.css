@@ -75,7 +75,8 @@ h1 {
 .listagem-conteudo {
     display: flex;
     justify-content: center;
-    gap: 0px 7px;
+    flex-wrap: wrap;
+    gap: 7px;
 }
 
 .listagem-conteudo a {
@@ -91,7 +92,7 @@ h1 {
 
 .listagem-conteudo a:hover {
     color: #0D0D0D;
-    background-color: #FFD700;
+    background-color: #f1d326;
 }
 
 h2 {

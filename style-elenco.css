@@ -20,13 +20,13 @@ header {
     align-items: center;
     justify-content: center;
     padding: 20px 0;
-    background: linear-gradient(to right, #A67683, #40592E);
+    background: linear-gradient(to right, #92c44b, #dc6794);
 }
 
 header img {
     width: 150px;
     height: auto;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 nav {
@@ -42,10 +42,14 @@ nav a {
     color: #F2E0C9;
     font-weight: bold;
     font-size: 16px;
+    padding: 5px 12px;
 }
 
 nav a:hover {
-    color: #FFD700;
+    color: #0D0D0D;
+    background-color: #f1d326;
+    padding: 5px 12px;
+    border-radius: 15px;
 }
 
 main {
@@ -54,23 +58,22 @@ main {
 }
 
 #frase-de-efeito {
-    color: #8C3746;
+    color: #b93e6a;
     font-weight: 600;
     letter-spacing: 1px; 
     text-shadow: 0px 0px 8px rgba(140, 55, 71, 0.418);
     font-size: 1.1rem;
 }
 
-main h1 {
+h1 {
+    color:#43861f;
     font-size: 2rem;
-    color: #40592E;
-    margin-bottom: 10px;
-    text-align: center;
+    padding: 20px;
 }
 
-main p {
+p {
     font-size: 1.2rem;
-    color: #6D6D6D;
+    color: #414141;
     text-align: center;
 }
 
@@ -90,6 +93,9 @@ main p {
     background-color: #ebd2aa;
 }
 
+.cast-member p {
+    font-size: 1rem;
+}
 
 .cast-member img {
     max-width: 100%;
@@ -106,8 +112,8 @@ main p {
 }
 
 #topo {
-    text-align: center;
     padding-top: 20px;
+    font-size: 1rem;
 }
 
 #topo a {
@@ -116,12 +122,36 @@ main p {
 }
 
 #topo a:hover {
-    color:#40592E;
+    color:#43861f;
 }
 
 footer {
-    background-color: #2F4023;
+    background-color: #43861f;
     color: #F2E0C9;
     padding: 20px 0px;
     text-align: center;
+}
+
+footer .redes-sociais {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+footer .redes-sociais img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.2s ease;
+}
+
+footer .redes-sociais img:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 160px){
+    header img {
+        width: 100%;
+    }
 }
