@@ -26,7 +26,7 @@ header {
 header img {
     width: 150px;
     height: auto;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 nav {
@@ -71,16 +71,16 @@ h1 {
     padding: 20px;
 }
 
+h2 {
+    color:#b93e6a;
+}
+
 .main-container {
     display: flex;
     gap: 20px;
     max-width: 1000px;
     margin: 0 auto;
     flex-wrap: wrap;
-}
-
-.main-container h2 {
-    color:#b93e6a;
 }
 
 .main-container p {
@@ -104,8 +104,8 @@ h1 {
 .main-block a {
     color: #F2E0C9;
     background-color:#43861f;
-    max-width: 150px;
     padding: 5px 12px;
+    margin: 3px;
     border-radius: 15px;
     font-weight: 500;
     text-decoration: none;
@@ -115,6 +115,29 @@ h1 {
 .main-block a:hover {
     color: #0D0D0D;
     background-color: #f1d326;
+}
+
+.trailer {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    max-width: 1000px;
+    margin: 20px auto 0px auto;
+    gap: 15px;
+    padding: 20px;
+    background-color: #ebd2aa;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(17, 43, 15, 0.267);
+}
+
+.thumbnail {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    transition: transform 0.3s;
+    box-shadow: 0 4px 6px rgba(17, 43, 15, 0.267)
 }
 
 #topo {
@@ -135,6 +158,24 @@ footer {
     color: #F2E0C9;
     padding: 20px 0px;
     text-align: center;
+}
+
+footer .redes-sociais {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+footer .redes-sociais img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.2s ease;
+}
+
+footer .redes-sociais img:hover {
+    transform: scale(1.1);
 }
 
 @media (max-width: 160px){
