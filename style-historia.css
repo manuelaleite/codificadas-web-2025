@@ -105,7 +105,7 @@ h2 {
 }
 
 figure {
-    margin-bottom: 15px;
+    margin: 15px 0;
     text-align: center;
 }
 
@@ -149,6 +149,18 @@ td a {
 td a:hover {
     color: #b93e6a;
 }
+
+h3 {
+    color: #b93e6a;
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+
+li {
+    margin: 5px 0px;
+  }
 
 #topo {
     text-align: center;
