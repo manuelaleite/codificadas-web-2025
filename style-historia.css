@@ -37,7 +37,6 @@ nav {
 
 nav a {
     margin: 0 20px;
-    position: relative;
     text-decoration: none;
     color: #F2E0C9;
     font-weight: bold;
@@ -155,11 +154,11 @@ h3 {
 }
 
 ul, ol {
-    padding-left: 20px;
+    list-style-position: inside
 }
 
 li {
-    margin: 5px 0px;
+    margin: 8px 0px;
   }
 
 #topo {
