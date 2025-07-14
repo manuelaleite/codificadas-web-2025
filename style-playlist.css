@@ -17,8 +17,8 @@ header {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     padding: 20px 0;
     background: linear-gradient(to right, #92c44b, #dc6794);
 }
@@ -30,13 +30,11 @@ header img {
 }
 
 nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    text-align: center;
 }
 
 nav a {
-    margin: 0 20px;
+    margin: 0px 20px;
     text-decoration: none;
     color: #F2E0C9;
     font-weight: bold;
@@ -47,7 +45,6 @@ nav a {
 nav a:hover {
     color: #0D0D0D;
     background-color: #f1d326;
-    padding: 5px 12px;
     border-radius: 15px;
 }
 
@@ -128,8 +125,7 @@ p {
 }
 
 #topo {
-    padding-top: 20px;
-    font-size: 1rem;
+    margin-top: 20px;
 }
 
 #topo a {
@@ -150,16 +146,13 @@ footer {
 
 footer .redes-sociais {
     margin-top: 10px;
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    flex-wrap: wrap;
 }
 
 footer .redes-sociais img {
     width: 24px;
     height: 24px;
     transition: transform 0.2s ease;
+    margin: 0px 6px;
 }
 
 footer .redes-sociais img:hover {

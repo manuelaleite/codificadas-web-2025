@@ -17,8 +17,8 @@ header {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     padding: 20px 0;
     background: linear-gradient(to right, #92c44b, #dc6794);
 }
@@ -30,13 +30,11 @@ header img {
 }
 
 nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    text-align: center;
 }
 
 nav a {
-    margin: 0 20px;
+    margin: 0px 20px;
     text-decoration: none;
     color: #F2E0C9;
     font-weight: bold;
@@ -47,12 +45,11 @@ nav a {
 nav a:hover {
     color: #0D0D0D;
     background-color: #f1d326;
-    padding: 5px 12px;
     border-radius: 15px;
 }
 
 main {
-    padding: 20px;
+    margin: 20px;
     text-align: center;
 }
 
@@ -67,7 +64,7 @@ main {
 h1 {
     color:#43861f;
     font-size: 2rem;
-    padding: 20px;
+    margin: 20px;
 }
 
 h2 {
@@ -85,30 +82,31 @@ h2 {
 .main-container p {
     font-weight: 450;
     color: #0D0D0D;
-    padding: 5px;
+    margin: 5px;
 }
 
 .main-block {
     display: flex;
     flex-direction: column;
-    flex: 1 1 200px; 
-    align-items: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 200px;
     justify-content: space-evenly;
+    align-items: center;
     background-color: #ebd2aa;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(17, 43, 15, 0.267);
+    box-shadow: 0px 0px 6px #888888;
 }
 
 .main-block a {
     color: #F2E0C9;
     background-color:#43861f;
     padding: 5px 12px;
-    margin: 3px;
+    margin: 3px 0px;
     border-radius: 15px;
     font-weight: 500;
     text-decoration: none;
-    transition: all 0.5s;
 }
 
 .main-block a:hover {
@@ -117,16 +115,16 @@ h2 {
 }
 
 .trailer {
-    display: flex;
-    flex-direction: column;
-    flex: 1 1 auto;
     max-width: 1000px;
     margin: 20px auto 0px auto;
-    gap: 15px;
     padding: 20px;
     background-color: #ebd2aa;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(17, 43, 15, 0.267);
+    box-shadow: 0px 0px 6px #888888;
+}
+
+.trailer h2 {
+    margin-bottom: 8px;
 }
 
 .thumbnail {
@@ -134,13 +132,13 @@ h2 {
     aspect-ratio: 16 / 9;
     background-size: cover;
     background-position: center;
+    margin-top: 10px;
     border-radius: 8px;
-    transition: transform 0.3s;
-    box-shadow: 0 4px 6px rgba(17, 43, 15, 0.267)
+    box-shadow: 0px 0px 6px #888888;
 }
 
 #topo {
-    padding-top: 20px;
+    margin-top: 20px;
 }
 
 #topo a {
@@ -161,16 +159,13 @@ footer {
 
 footer .redes-sociais {
     margin-top: 10px;
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    flex-wrap: wrap;
 }
 
 footer .redes-sociais img {
     width: 24px;
     height: 24px;
     transition: transform 0.2s ease;
+    margin: 0px 6px;
 }
 
 footer .redes-sociais img:hover {
