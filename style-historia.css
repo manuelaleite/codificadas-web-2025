@@ -82,7 +82,6 @@ h1 {
     background-color:#b93e6a;
     padding: 5px 12px;
     border-radius: 15px;
-    transition: all 0.5s;
     font-weight: 400;
 }
 
@@ -93,7 +92,7 @@ h1 {
 
 h2 {
     color: #43861f;
-    padding: 15px 0;
+    margin: 15px 0;
 }
 
 .topicos {
@@ -128,12 +127,12 @@ table {
 th {
     background-color: #b93e6a;
     color: #F2E0C9;
-    padding: 0.6rem;
+    padding: 10px;
 }
 
 td {
     background-color: #ebd2aa;
-    padding: 0.6rem;
+    padding: 10px;
 }
 
 td a {
