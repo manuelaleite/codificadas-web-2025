@@ -171,9 +171,3 @@ footer .redes-sociais img {
 footer .redes-sociais img:hover {
     transform: scale(1.1);
 }
-
-@media (max-width: 160px){
-    header img {
-        width: 100%;
-    }
-}
